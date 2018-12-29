@@ -1,0 +1,7 @@
+twilio:
+    account: "ABC"
+    token: "abc"
+    sender: "Someone"
+    receivers:
+        - "+4512345678"
+        - "+4587654321"
