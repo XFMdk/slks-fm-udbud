@@ -14,10 +14,9 @@ print()
 horinger = soup.select("div#c128643 > div > p")
 udbud = soup.select("div#c107615 > div > p")
 
-#print("Alle aktuelle høringer:")
-#for horing in horinger:
-#    print("-", horing.text)
-
+print("Alle aktuelle høringer:")
+for horing in horinger:
+    print("-", horing.text)
 
 print("Alle aktuelle udbud:")
 if "Der er ingen igangværende udbud på medieområdet." in udbud[0].text:
